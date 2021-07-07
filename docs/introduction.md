@@ -69,9 +69,6 @@ This example was taken from http://embedgooglemap.net.
 
 This iFrame uses [Twitframe](http://twitframe.com/) for embedding tweets. Note that you must use the URL-encoded form of the feed. This site is useful for doing this: [URL encoder/decoder](https://meyerweb.com/eric/tools/dencoder/)
 
-### COVID-19 Tracker iFrame
-
-<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
 
 ### Quote of the Day iFrame
 
@@ -118,6 +115,8 @@ Notice the HTML's syntax highlighting.
 ```
 
 ## Section 4: Diagrams
+
+*For some reason, the mermaid diagrams are not rendering.*
 
 Now for a mermaid flowchart diagram with font-awesome icons.
 
@@ -172,6 +171,8 @@ What do I need to do today? Well, let's prepare a task list.
 
 ### Math Equations
 
+*Unfortunately, this is not working currently.*
+
 **Some KaTeX/LaTeX ($) equations are supported.**
 
 $f(x)$ 
@@ -199,7 +200,7 @@ $$
 Here are some basic emojis and a footnote[^1].  
 :smile:  :beer:  :cat:  :dog: :santa: :heart:
 
-How about a few keyboard graphics using `<kbd>`?  
+How about a few keyboard graphics using `<kbd>`? <br />Note that the CSS formatting of buttons is off.
 PRESS: <kbd>Ctrl</kbd>+<kbd>F9</kbd> to proceed  
 PRESS: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> to reboot
 
@@ -224,22 +225,7 @@ CSS
 
 ### Admonitions and Alerts
 
-Engage the reader with these message boxes.
-:::success
-Yes, **success** :tada:
-:::
-
-:::info
-This is an **info** message :mega:
-:::
-
-:::warning
-Watch for this lightning **warning** :zap:
-:::
-
-:::danger
-Think **danger** if you smell smoke. :fire:
-:::
+*These do not work (yet?)*
 
 ### Using HTML Tags to Show/Hide Content
 
