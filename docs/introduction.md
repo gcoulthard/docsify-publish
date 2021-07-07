@@ -173,7 +173,7 @@ What do I need to do today? Well, let's prepare a task list.
 
 *Unfortunately, this is not working currently.*
 
-**Some KaTeX/LaTeX ($) equations are supported.**
+**Some KaTeX/LaTeX ($) equations should be supported.**
 
 $f(x)$ 
 
